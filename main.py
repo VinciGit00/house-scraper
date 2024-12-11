@@ -51,7 +51,7 @@ def scrape_website(url, api_key):
         return f"Error scraping website: {str(e)}"
 
 def main():
-    st.title("🏡Real Estate Website Directory")
+    st.title("🏡 Real Estate Website Scraper")
     
     # API Key input
     api_key = st.text_input("Enter your ScapeGraph API Key", type="password")
